@@ -1,6 +1,6 @@
-# FERA database
+# GEMEP-FERA database
 
-You can get the CKP dataset by ask the official organizer: http://www.consortium.ri.cmu.edu/ckagree/
+You can get the GEMEP-FERA dataset by ask the official organizer: http://gemep-db.sspnet.eu/
 
 
 Paper
