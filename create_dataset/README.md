@@ -8,7 +8,7 @@
 
 ##### EXAMPLE
 ```
-python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emotion_labels /home/000/MultiRateFeatureFusion_FER/Database/CKP/cohn-kanade-images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ 0 9 128 128]
+python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emotion_labels /home/000/MultiRateFeatureFusion_FER/Database/CKP/cohn-kanade-images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ 0 9 128 128
 ```
 - argv[0] : label_main_dir, directory where the CKP emotion label located [/home/000/MultiRateFeatureFusion_FER/Database/CKP/emotion_labels]
 - argv[1] : image_main_dir, directory where the CKP images located     
@@ -27,7 +27,7 @@ python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emo
 
 ##### EXAMPLE
 ```
-python choose_frame_minimum_ckp_14.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/augmented_images/ 0 128 128]
+python choose_frame_minimum_ckp_14.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/augmented_images/ 0 128 128
 ```
 - argv[0] : image_main_dir, directory where the preprocessed CKP image seqences located [/home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/]
 - argv[1] : emotions_dir, directory where you want to save the multi-frame & augmented images [/home/000/MultiRateFeatureFusion_FER/Database/CKP/augmented_images/]
@@ -39,7 +39,10 @@ python choose_frame_minimum_ckp_14.py /home/000/MultiRateFeatureFusion_FER/Datab
 #### 3. move_neutral_smf_tot.py
    : classify(neutral emotion and multi-frames(3,5,7)) and put then into the right folders   
 
-
+##### EXAMPLE
+```
+python move_neutral_smf_tot.py
+```
 change the arguments in the code
 - d : choose the database from the database list [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
 - t : choose the dataset which is consists of test, train+validation or test+train+validation dataset[tot = ['Test', 'Train', 'ALL']]
@@ -51,6 +54,10 @@ change the arguments in the code
 #### 4. npy_merge.py
    : merge .npy files to make datasets which are fed into the network   
 
+##### EXAMPLE
+```
+python npy_merge.py
+```
 
 change the arguments in the code
 ```
