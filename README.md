@@ -3,7 +3,7 @@
 
 
 # Model Stucture
-
+![figure1_3](https://user-images.githubusercontent.com/47851661/129718320-2da7dd87-f1ab-4b85-801a-d49272aaedc9.png)
 
 
 # Installation (Environment)
