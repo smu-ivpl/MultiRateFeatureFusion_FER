@@ -29,6 +29,8 @@ concat_train_test.py
 - first input = selected dataset you want to train and test from the above list
 - second input = iteration of training & testing preprocessing list (pre = ['pre', 'lbp', 'norm', 'normlbp'])
 
-example
+* example
+
 first input = 1 -> select 'MMI_minimum dataset'
+
 second input = 3 -> train & test selected database of preprocessed, lbp, normalized dataset
