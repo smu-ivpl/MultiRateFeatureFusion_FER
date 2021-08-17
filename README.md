@@ -2,8 +2,10 @@
 "A Robust Facial Expression Recognition Algorithm Based on Multi-Rate Feature Fusion Scheme"
 
 
+
 # Model Stucture
 ![figure1_3](https://user-images.githubusercontent.com/47851661/129718320-2da7dd87-f1ab-4b85-801a-d49272aaedc9.png)
+
 
 
 # Installation (Environment)
@@ -20,3 +22,7 @@
 - Install ’SAN’ module’s environment for landmark detection
    ( https://github.com/D-X-Y/landmark-detection )
 
+
+
+# Train and Test
+concat_train_test.py
