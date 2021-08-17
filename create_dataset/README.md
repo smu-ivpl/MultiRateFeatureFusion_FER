@@ -3,7 +3,7 @@
 ### Order
 
 #### 1. preprocess_image.py
-    : preprocess all images in image sequence
+: preprocess all images in image sequence
  
  
      - argv[0] : label_main_dir, directory where the CKP emotion label located
@@ -16,7 +16,7 @@
 
 
 #### 2. choose_frame_minimum_ckp_14.py
-    : (in CKP database) choose multi-frames through minimum overlapped frame structure and augment 14 times. Then save as .npy file.
+: (in CKP database) choose multi-frames through minimum overlapped frame structure and augment 14 times. Then save as .npy file.
 
 
      - argv[0] : image_main_dir, directory where the preprocessed CKP image seqences located
@@ -27,7 +27,7 @@
 
 
 #### 3. move_neutral_smf_tot.py
-    : classify(neutral emotion and multi-frames(3,5,7)) and put then into the right folders
+: classify(neutral emotion and multi-frames(3,5,7)) and put then into the right folders
 
 
     change the arguments in the code
@@ -39,11 +39,12 @@
 
 
 #### 4. npy_merge.py
-    : merge .npy files to make datasets which are fed into the network
+: merge .npy files to make datasets which are fed into the network
 
 
     change the arguments in the code
-##### make_npy(dataset, aug, tot, mo, smf, preprocess)
+    make_npy(dataset, aug, tot, mo, smf, preprocess)
+    
     - dataset : choose the database from the database list [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
     - aug : number how many time the dataset is augmented [aug = ['14', '8', '2', '4']]
     - tot : choose the dataset which is consists of test, train+validation or test+train+validation dataset [tot = ['Test', 'Train', 'ALL']]
