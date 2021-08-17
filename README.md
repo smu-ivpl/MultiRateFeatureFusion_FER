@@ -31,7 +31,5 @@ concat_train_test.py
 
 
 EXAMPLE
-
-first input = 1 -> select 'MMI_minimum dataset'
-
-second input = 3 -> train & test selected database of preprocessed, lbp, normalized dataset
+- first input = 1 -> select 'MMI_minimum dataset'
+- second input = 3 -> train & test selected database of preprocessed, lbp, normalized dataset
