@@ -1,5 +1,5 @@
 # Paper
-"A Robust Facial Expression Recognition Algorithm Based on Multi-Rate Feature Fusion Scheme"
+"A Robust Facial Expression Recognition Algorithm Based on Multi-Rate Feature Fusion Scheme"   
 
 
 
@@ -19,9 +19,9 @@
     - pip install numpy
     - pip install keras-self-attention
     
-- Install ‘FaceBoxes’ module’s environment for face detection
+- Install ‘FaceBoxes’ module’s environment for face detection   
    ( https://github.com/sfzhang15/FaceBoxes )
-- Install ’SAN’ module’s environment for landmark detection
+- Install ’SAN’ module’s environment for landmark detection   
    ( https://github.com/D-X-Y/landmark-detection )
 
 
@@ -33,7 +33,12 @@
 
 
 #### EXAMPLE
-python concat_train_test.py
+python concat_train_test.py   
+then enter
+1   
+and enter
+3   
 
+it means   
 - first input = 1 -> select 'MMI_minimum dataset'
 - second input = 3 -> train & test selected database of 'preprocessed, lbp, normalized dataset'
