@@ -16,7 +16,8 @@ python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emo
 - argv[4] : min_seq_len, the minimum number required to create a dataset [9]
 - argv[5] : t_height, resized height [128]
 - argv[6] : t_width, resized width [128]
-     
+
+- Also, need to change 'model', 'caffe_root', 'model_def', and 'model_weights' in the code
      
 
 #### 2. choose_frame_minimum_ckp_14.py
@@ -59,3 +60,4 @@ make_npy(dataset, aug, tot, mo, smf, preprocess)
 - mo : choose the dataset which is made using minimum overlapped frame structure or not [mo = ['Minimum', 'Overlapped']]
 - smf : choose how may frames the dataset consists of [smf = ['s','m','f']
 - preprocess : choose the preprocessed method which you want to make a final dataset [preprocess = ['pre','lbp','norm','normlbp']]
+- main_path : you need to change the main_path
