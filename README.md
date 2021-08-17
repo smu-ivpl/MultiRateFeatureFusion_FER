@@ -7,7 +7,7 @@
 
 
 # Installation (Environment)
-python 3.7
+python 3.7 //
 pip install tensorflow-gpu==2.1.0
 pip install keras==2.2.4
 pip install theano
