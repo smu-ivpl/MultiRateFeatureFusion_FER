@@ -33,11 +33,17 @@
 
 
 #### EXAMPLE
+'''
 python concat_train_test.py   
+'''
 then enter
+'''
 1   
+'''
 and enter
+'''
 3   
+'''
 
 it means   
 - first input = 1 -> select 'MMI_minimum dataset'
