@@ -44,10 +44,14 @@ python choose_frame_minimum_ckp_14.py /home/000/MultiRateFeatureFusion_FER/Datab
 python move_neutral_smf_tot.py
 ```
 change the arguments in the code
-- d : choose the database from the database list [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
-- t : choose the dataset which is consists of test, train+validation or test+train+validation dataset[tot = ['Test', 'Train', 'ALL']]
-- a : number how many time the dataset is augmented [aug = ['14', '8', '2', '4']]
-- m : choose the dataset which is made using minimum overlapped frame structure or not [mo = ['Minimum', 'Overlapped']]
+- d : choose the database from the database list    
+            [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
+- t : choose the dataset which is consists of test, train+validation or test+train+validation dataset    
+            [tot = ['Test', 'Train', 'ALL']]
+- a : number how many time the dataset is augmented     
+            [aug = ['14', '8', '2', '4']]
+- m : choose the dataset which is made using minimum overlapped frame structure or not     
+            [mo = ['Minimum', 'Overlapped']]
 - folder_path : path where you want to classify the files are located
 
 
