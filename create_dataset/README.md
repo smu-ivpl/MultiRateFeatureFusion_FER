@@ -11,7 +11,7 @@
 python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emotion_labels /home/000/MultiRateFeatureFusion_FER/Database/CKP/cohn-kanade-images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ 0 9 128 128]
 ```
 - argv[0] : label_main_dir, directory where the CKP emotion label located [/home/000/MultiRateFeatureFusion_FER/Database/CKP/emotion_labels]
-- argv[1] : image_main_dir, directory where the CKP images located 
+- argv[1] : image_main_dir, directory where the CKP images located     
             [/home/000/MultiRateFeatureFusion_FER/Database/CKP/cohn-kanade-images/]
 - argv[2] : emotions_dir, directory where you want to save the preprocessed images [/home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/]
 - argv[3] : neutral_label, label of neutral expression [0]
