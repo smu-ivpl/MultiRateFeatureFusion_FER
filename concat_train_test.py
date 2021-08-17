@@ -678,9 +678,9 @@ if __name__ == '__main__':
     print('> (8) : AFEW_over')
     print('> (9) : ALL_over')
     print('-----------------------------------------')
-    x = int(input())  # selected dataset (0 : ck+, 1 : mmi, 2 : fera)
+    x = int(input())  # selected dataset from above
     print('----------THE NUMBER OF EPOCH------------')
-    r = int(input())  # iteration of training&testing preprocessing list
+    r = int(input())  # iteration of training & testing preprocessing list
     print('-----------------------------------------')
     hybrid_network(x, r)
 
