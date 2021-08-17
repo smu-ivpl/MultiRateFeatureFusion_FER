@@ -6,6 +6,7 @@
    : preprocess all images in image sequence   
  
 
+##### EXAMPLE
 ```
 python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emotion_labels /home/000/MultiRateFeatureFusion_FER/Database/CKP/cohn-kanade-images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ 0 9 128 128]
 ```
@@ -22,6 +23,8 @@ python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emo
 #### 2. choose_frame_minimum_ckp_14.py
    : (in CKP database) choose multi-frames through minimum overlapped frame structure and augment 14 times. Then save as .npy file.   
 
+
+##### EXAMPLE
 ```
 python choose_frame_minimum_ckp_14.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/preprocessed_images/ /home/000/MultiRateFeatureFusion_FER/Database/CKP/augmented_images/ 0 128 128]
 ```
