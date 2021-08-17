@@ -43,7 +43,7 @@
 
 
     change the arguments in the code
-    make_npy(dataset, aug, tot, mo, smf, preprocess)
+    : make_npy(dataset, aug, tot, mo, smf, preprocess)
     
     - dataset : choose the database from the database list [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
     - aug : number how many time the dataset is augmented [aug = ['14', '8', '2', '4']]
