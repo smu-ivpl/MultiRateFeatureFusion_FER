@@ -30,7 +30,7 @@ concat_train_test.py
 - second input = iteration of training & testing preprocessing list (pre = ['pre', 'lbp', 'norm', 'normlbp'])
 
 
-<example>
+EXAMPLE
 
 first input = 1 -> select 'MMI_minimum dataset'
 
