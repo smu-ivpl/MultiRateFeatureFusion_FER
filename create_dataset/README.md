@@ -68,10 +68,16 @@ change the arguments in the code
 make_npy(dataset, aug, tot, mo, smf, preprocess)
 ```
     
-- dataset : choose the database from the database list [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
-- aug : number how many time the dataset is augmented [aug = ['14', '8', '2', '4']]
-- tot : choose the dataset which is consists of test, train+validation or test+train+validation dataset [tot = ['Test', 'Train', 'ALL']]
-- mo : choose the dataset which is made using minimum overlapped frame structure or not [mo = ['Minimum', 'Overlapped']]
-- smf : choose how may frames the dataset consists of [smf = ['s','m','f']
-- preprocess : choose the preprocessed method which you want to make a final dataset [preprocess = ['pre','lbp','norm','normlbp']]
+- dataset : choose the database from the database list     
+            [dataset = ['FERA', 'MMI', 'CKP', 'AFEW']]
+- aug : number how many time the dataset is augmented     
+            [aug = ['14', '8', '2', '4']]
+- tot : choose the dataset which is consists of test, train+validation or test+train+validation dataset     
+            [tot = ['Test', 'Train', 'ALL']]
+- mo : choose the dataset which is made using minimum overlapped frame structure or not     
+            [mo = ['Minimum', 'Overlapped']]
+- smf : choose how may frames the dataset consists of     
+            [smf = ['s','m','f']
+- preprocess : choose the preprocessed method which you want to make a final dataset      
+            [preprocess = ['pre','lbp','norm','normlbp']]
 - main_path : you need to change the main_path
