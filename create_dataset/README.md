@@ -16,7 +16,6 @@ python preprocess_image.py /home/000/MultiRateFeatureFusion_FER/Database/CKP/emo
 - argv[4] : min_seq_len, the minimum number required to create a dataset [9]
 - argv[5] : t_height, resized height [128]
 - argv[6] : t_width, resized width [128]
-
 - Also, need to change 'model', 'caffe_root', 'model_def', and 'model_weights' in the code
      
 
