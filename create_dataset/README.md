@@ -4,7 +4,7 @@ Order
 
 1. preprocess_image.py
 
-: preprocess all images in image sequence
+[tab] : preprocess all images in image sequence
  
 
 2. choose_frame_minimum_ckp_14.py
